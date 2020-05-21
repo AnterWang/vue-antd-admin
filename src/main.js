@@ -12,7 +12,7 @@ import { bus } from './utils/common'
 
 // 全局loading
 import Loading from '@/components/my-loading/loading.js'
-import auth from '@/components/auth';
+import auth from '@/components/actionAuth';
 Vue.use(Loading);
 Vue.component('auth', auth);
 

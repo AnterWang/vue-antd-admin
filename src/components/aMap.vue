@@ -9,9 +9,6 @@
 import {loadAMapScript, generatorId} from '@/utils/common'; 
 
 export default {
-
-    name: 'hh-map',
-
     props: {
         options: {
             type: Object,
